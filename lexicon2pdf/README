@@ -1,0 +1,67 @@
+
+Kalima -- lexicon2pdf
+Generates a PDF export of a kalima-compatible XML lexicon.
+
+Requirements & Installation
+===========================
+
+* python2.6
+* reportlab
+* ttf-dejavu
+
+Installation
+------------
+
+# aptitude install python2.6 python-reportlab
+# cd lexicon2pdf
+# ln -s /usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf
+# ln -s /usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono.ttf
+# ln -s /usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono-BoldOblique.ttf
+# ln -s /usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono-Bold.ttf
+# ln -s /usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono-Oblique.ttf
+
+
+Usage
+=====
+
+./lexicon2pdf lexicon-fr_ses.xml lexicon-fr_ses.pdf
+
+XML Schema Definition
+=====================
+
+Bellow is an example of the XML format.
+This is an original format. Do not expect any tool to write in this format
+The only-one so far to write such format is Kalima's own exporter.
+
+<OneToOneDictionary source="fr" target="ses">
+	<codes>
+		<code value="N" abbr="n.">Nom</code>
+		<code value="A" abbr="adj.">Adjectif</code>
+		<code value="LOC" abbr="loc.">Locution</code>
+		<code value="V" abbr="v.">Verbe</code>
+	</codes>
+	<words>
+		<word>
+			<value>manger</value>
+			<derivative type="V">
+				<value>manger</value>
+				<translation>ŋaa</translation>
+			</derivative>
+			<derivative type="V">
+				<value>Prendre un repas</value>
+				<translation>ŋaa</translation>
+			</derivative>
+			<derivative type="V">
+				<value>Mâcher et avaler un aliment dans le but de se nourrir</value>
+				<translation>ŋaa</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>voisin</value>
+			<derivative type="A">
+				<value>voisin</value>
+				<translation>talamma</translation>
+			</derivative>
+		</word>
+    </words>
+</OneToOneDictionary>

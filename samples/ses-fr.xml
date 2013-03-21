@@ -1,0 +1,185 @@
+<OneToOneDictionary source="ses" target="fr">
+	<codes>
+		<code value="N" abbr="n.">Nom</code>
+		<code value="A" abbr="adj.">Adjectif</code>
+		<code value="LOC" abbr="loc.">Locution</code>
+		<code value="V" abbr="v.">Verbe</code>
+	</codes>
+	<words>
+		<word>
+			<value>laama</value>
+			<derivative type="N">
+				<value>domination</value>
+				<translation gender="f">domination</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>buufuru</value>
+			<derivative type="N">
+				<value>faiblard</value>
+				<translation gender="m">faiblard</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>alwaadu</value>
+			<derivative type="N">
+				<value>fatalité</value>
+				<translation gender="f">fatalité</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>gurzugay</value>
+			<derivative type="N">
+				<value>tourment</value>
+				<translation gender="m">tourment</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>suwa</value>
+			<derivative type="N">
+				<value>gazelle</value>
+				<translation gender="f">gazelle</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>gagaykaw</value>
+			<derivative type="N">
+				<value>conseiller</value>
+				<translation>conseiller</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>caadaroo</value>
+			<derivative type="N">
+				<value>cherté</value>
+				<translation gender="f">cherté</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>labutaasi</value>
+			<derivative type="N">
+				<value>sable</value>
+				<translation>sable</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>loofu</value>
+			<derivative type="N">
+				<value>faible</value>
+				<translation gender="m">faible</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>attabiya</value>
+			<derivative type="N">
+				<value>attitude</value>
+				<translation gender="f">attitude</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>zarabi</value>
+			<derivative type="N">
+				<value>tourment</value>
+				<translation gender="m">tourment</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>binehunay</value>
+			<derivative type="N">
+				<value>découragement</value>
+				<translation gender="m">découragement</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>yeeri</value>
+			<derivative type="V">
+				<value>vomir</value>
+				<translation>vomir</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>yamma</value>
+			<derivative type="A">
+				<value>fréquent</value>
+				<translation>fréquent</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>jisiroo</value>
+			<derivative type="N">
+				<value>submersion</value>
+				<translation gender="f">submersion</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>ben</value>
+			<derivative type="A">
+				<value>fini</value>
+				<translation>fini</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>gaw</value>
+			<derivative type="N">
+				<value>détérioration de la dent</value>
+				<translation gender="f">carie</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>saata</value>
+			<derivative type="N">
+				<value>fatalité</value>
+				<translation gender="f">fatalité</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>harikusu</value>
+			<derivative type="N">
+				<value>jarre</value>
+				<translation gender="f">jarre</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>haagu</value>
+			<derivative type="V">
+				<value>Faire cuire</value>
+				<translation>frire</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>beeri</value>
+			<derivative type="V">
+				<value>cultiver</value>
+				<translation>cultiver</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>daariji</value>
+			<derivative type="N">
+				<value>literie</value>
+				<translation gender="f">literie</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>huugumee</value>
+			<derivative type="N">
+				<value>porte</value>
+				<translation gender="f">porte</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>alyahuudu</value>
+			<derivative type="A">
+				<value>juif</value>
+				<translation>juif</translation>
+			</derivative>
+		</word>
+		<word>
+			<value>joote</value>
+			<derivative type="V">
+				<value>craindre</value>
+				<translation>craindre</translation>
+			</derivative>
+		</word>
+	</words>
+</OneToOneDictionary>
